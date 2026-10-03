@@ -1,0 +1,9 @@
+# Real Manhattan trips produced by scripts/prepare_nyc_data.py
+num_vehicles: 300
+speed_kmh: 18
+horizon_s: 7200
+drain_s: 3600
+demand_csv: data/nyc_demand.csv
+patience_s: 600
+dispatch_interval_s: 30
+max_pickup_s: 900

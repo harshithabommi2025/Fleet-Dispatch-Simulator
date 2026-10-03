@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fleetsim"
+version = "0.1.0"
+description = "Discrete-event robotaxi fleet simulator with pluggable dispatch policies"
+requires-python = ">=3.10"
+dependencies = ["simpy>=4.1", "numpy>=1.26", "pandas>=2.1", "scipy>=1.11", "pyyaml>=6.0"]
+
+[project.scripts]
+fleetsim = "fleetsim.cli:main"
+
+[tool.setuptools]
+packages = ["fleetsim"]

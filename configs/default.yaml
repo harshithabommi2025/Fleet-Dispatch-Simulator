@@ -1,0 +1,13 @@
+# Medium city, evening rush. Override any value with --set key=value.
+num_vehicles: 200
+speed_kmh: 25
+city_km: 10
+horizon_s: 14400        # 4 hours of requests
+drain_s: 3600
+demand_rate_per_hour: 600
+peak_multiplier: 2.0
+hotspots: 3
+hotspot_share: 0.6
+patience_s: 600
+dispatch_interval_s: 30
+max_pickup_s: 900

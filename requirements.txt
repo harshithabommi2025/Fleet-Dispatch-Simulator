@@ -1,0 +1,8 @@
+simpy>=4.1
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+pyyaml>=6.0
+pytest>=8.0
+streamlit>=1.48
+altair>=5.0
